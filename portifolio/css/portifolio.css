@@ -1,0 +1,119 @@
+
+*{
+    scroll-behavior:smooth;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    margin: 0px;
+    background-color: #252A30;
+    overflow-x: hidden;
+}
+header{
+    background-image: url("../img/fd6065ea3ee83273c71da5b9df012df6.jpeg");
+    width: 100vw;
+    height: 640px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.nav_bar_topo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_bar_topo h1{
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.barra_nav_home{
+    width: 420px;
+    display: flex;
+    font-size:1.2rem;;
+    justify-content: space-between;
+}
+.barra_nav_home a{
+    text-decoration:none;
+    padding: 5px;
+    border-radius: 19% 0%;
+    
+}
+.barra_nav_home a:hover{
+    background-image: url(../img/fundotexto2.jpg);
+    background-size: cover;
+    background-clip:text;
+    color: transparent;
+    word-wrap: break-word;   
+    
+}
+.perfil_topo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 55px;
+}
+.perfil{
+    position: absolute;
+    z-index: 1;
+}
+.perfil_topo .container_perfil{
+    display: flex;
+    width: 345px;
+    height: 300px;
+    background-color: #00000078;
+    backdrop-filter: blur(8px);
+    flex-direction: column;
+    border-radius: 3%;
+    transform: translateY(110px);
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 25px;
+}
+.perfil_topo figure img{
+    width: 200px;
+    height: 215px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.container_perfil h2{
+    font-size: 3.5rem;
+    margin: 7px 0px;
+}
+.container_perfil p{
+    font-size: 1.3rem;
+    margin: 0px 0px 15px;
+    text-transform: uppercase;
+}
+.text_background{
+    background-image: url(../img/fundotexto.jpg);
+    background-size: cover;
+    background-clip: text;
+    color: transparent;
+}
+.redes_sociais{
+    width: 60%;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.redes_sociais .instagram:hover{
+    background: linear-gradient(133deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 55%, rgba(252,176,69,1) 100%);
+    border-radius:28%;
+}
+.redes_sociais .github:hover{
+    background-color: #757272b7;
+    border-radius: 50%;
+}
+.redes_sociais .linkedin:hover{
+    background-color: rgba(12, 12, 242, 0.81);
+    border-radius: 50%;
+}
+.redes_sociais img{
+    width: 40px;
+    height: 40px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
